@@ -1,4 +1,5 @@
 
+
 /**
  * This will draw Christmas night
  * The night with the stars
@@ -14,14 +15,17 @@ public class ChristmasEve extends Applet
 {
     public ChristmasEve(Graphics g)
     {
-        drawChristmasEve(g);
+        drawNight(g);
     }
-    
-    public void drawChristmasEve(Graphics g)
+    class Night extends ChristmasEve
     {
         g.setColor(new Color(0, 51, 102));
         g.fillRect(0,0,1920,1080);
-        g.setColor(new Color(237, 244, 245));
-        g.fillRect(0,820,1920,260);
     }
+    class Snow extends ChristmasEve
+    {
+        g.fillRect(0,820,1920,260);
+        g.setColor(new Color(237, 244, 245));
+    }
+
 }
