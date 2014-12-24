@@ -1,4 +1,32 @@
-
+import java.awt.*;
+import java.applet.*;
+import java.util.*; 
+						
+class Windows
+{
+   private int a;
+   private int b;
+   private int c;
+   private int d;
+   private int e;
+   private int f;
+   private int g;
+   private int h;
+   private int i;
+   private int 
+   private int 
+   private int 
+   private int 
+   private int 
+   private int 
+   public Windows (Graphics g)
+   {
+   a = 510;
+   b = 185;
+   c = 60;
+   d = 540;
+   e = 245;
+   f = 2
    g.setColor(Color.white);
    g.fillRect(510,185,60,60);
    g.setColor(Color.black);
