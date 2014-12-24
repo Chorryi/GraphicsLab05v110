@@ -1,11 +1,4 @@
-import java.awt.*;
-import java.applet.*;
-import java.util.*; 
-						
-class Windows
-{
-   public Windows (Graphics g)
-   {
+
    g.setColor(Color.white);
    g.fillRect(510,185,60,60);
    g.setColor(Color.black);
